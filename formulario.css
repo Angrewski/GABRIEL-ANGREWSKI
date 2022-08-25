@@ -1,0 +1,26 @@
+
+body{
+  background:#B0E0E6
+}
+main{
+  width:2080px;
+  margin: 0 auto;
+}
+form{
+  margin: 40px 0;
+
+}
+ form label{
+   display: block;
+
+   font-size: 20px;
+   margin:0 0 10px;
+
+ }
+ form input{
+   display:block;
+ }
+
+  main{
+    background-color: #B0E0E6;
+  }

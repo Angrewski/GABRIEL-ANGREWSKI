@@ -1,34 +1,65 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>GB</title>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+	<title>Formuário</title>
+	<link rel="stylesheet"  href="formulario.css">
+<form>
+
+<div class="pagina">
 
 
-    <link rel="stylesheet" href="formulario.css">
-  </head>
-  <body>
+<label for="nome">Nome e Sobrenome</label>
+<input type="text"id="nome">
+
+<label for="email">Email</label>
+<input type="text" id="email">
+
+<label for="telefone">Telefone</label>
+<input type="text" id="telefone">
+
+<label for="mensagem">Mensagem</label>
+<textarea cols="80" rows="10" id="mensagem"></textarea>
+
+</div>
+
+<div class="pagina2">
+
+<p> Como prefere nosso contato </p>
+
+<label for="radio-email">Email
+<input type="radio" name="contato" value="email" id="radio-email">
+</label>
 
 
-    <main>
-      <form>
+<label for="radio-telefone">Telefone
+<input type="radio" name="contato" value="telefone" id="radio-telefone">
+</label>
 
 
-        <label for='Nome e Sobrenome'>Nome e Sobrenome</label>
-    <input type="text" id="nomesobrenome">
+<label for="radio-whatsapp">Whatsapp
+<input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
+</label>
 
-    <label for= 'E-mail'>E-mail</label>
-  <input type="text" id="E-mail">
+</div>
 
-  <label for='Telefone'>Telefone</label>
-<input type="text" id="Telefone">
+<div class="pagina3">
+	<p> Qual horário pretende ser atendido? </p>
+<select>
+	<option> Manhã </option>
+<option> Tarde </option>
+<option> Noite </option>
+</select>
 
-<input type="submit" value="Enviar Formulario">
+</div>
+<input type="submit" value="Enviar Formulário">
 
 
 
+</form>
 
 
 
-  </body>
-</html>
+</head>
+<body>

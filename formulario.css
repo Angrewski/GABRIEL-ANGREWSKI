@@ -1,26 +1,16 @@
-
-body{
-  background:#B0E0E6
-}
-main{
-  width:2080px;
-  margin: 0 auto;
-}
-form{
-  margin: 40px 0;
+form label {
+display:block;
+ font-size: 25px;
+margin: 0 0 10px;
+color: red;
 
 }
- form label{
-   display: block;
 
-   font-size: 20px;
-   margin:0 0 10px;
 
- }
- form input{
-   display:block;
- }
+.pagina {
+display: block;
+  margin: 2 2 20px;
+   padding: 20px 30px;
+   
 
-  main{
-    background-color: #B0E0E6;
-  }
+}
